@@ -57,6 +57,7 @@
         class="kw-official-logo-11"
         alt=""
         src="./public/kw-official-logo-11@2x.png"
+        id="kWOfficialLogo11"
       /><button class="ellipse-parent" id="groupButton2">
         <img class="group-child" alt="" src="./public/ellipse-1.svg" /><img
           class="group-item"
@@ -152,59 +153,51 @@
       var button = document.getElementById("button");
       if (button) {
         button.addEventListener("click", function () {
-          window.location.href = "https://know-wallet.com";
+          window.open("https://know-wallet.com");
         });
       }
-      
       var home = document.getElementById("home");
       if (home) {
         home.addEventListener("click", function () {
           window.open("https://know-wallet.com");
         });
       }
-      
       var about = document.getElementById("about");
       if (about) {
         about.addEventListener("click", function () {
-          window.location.href = "https://know-wallet.com/about";
+          window.open("https://know-wallet.com/about");
         });
       }
-      
       var chains = document.getElementById("chains");
       if (chains) {
         chains.addEventListener("click", function () {
-          window.location.href = "https://know-wallet.com/chains";
+          window.open("https://know-wallet.com/chains");
         });
       }
-      
       var contact = document.getElementById("contact");
       if (contact) {
         contact.addEventListener("click", function () {
-          window.location.href = "https://know-wallet.com/faq";
+          window.open("https://know-wallet.com/contact");
         });
       }
-      
       var fAQ = document.getElementById("fAQ");
       if (fAQ) {
         fAQ.addEventListener("click", function () {
-          window.location.href = "https://know-wallet.com/faq";
+          window.open("https://know-wallet.com/faq");
         });
       }
-      
       var groupButton = document.getElementById("groupButton");
       if (groupButton) {
         groupButton.addEventListener("click", function () {
-          window.location.href = "https://bit.ly/3nbcI3a";
+          window.open("https://bit.ly/3nbcI3a");
         });
       }
-      
       var groupButton1 = document.getElementById("groupButton1");
       if (groupButton1) {
         groupButton1.addEventListener("click", function () {
-          window.location.href = "https://bit.ly/3nbcI3a";
+          window.open("https://bit.ly/3nbcI3a");
         });
       }
-      
       var imageByBenzoix = document.getElementById("imageByBenzoix");
       if (imageByBenzoix) {
         imageByBenzoix.addEventListener("click", function () {
@@ -213,14 +206,20 @@
           );
         });
       }
-      
+
+      var kWOfficialLogo11 = document.getElementById("kWOfficialLogo11");
+      if (kWOfficialLogo11) {
+        kWOfficialLogo11.addEventListener("click", function () {
+          window.open("https://know-wallet.com");
+        });
+      }
+
       var groupButton2 = document.getElementById("groupButton2");
       if (groupButton2) {
         groupButton2.addEventListener("click", function () {
-          window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+          window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
         });
       }
-      
       var groupButton3 = document.getElementById("groupButton3");
       if (groupButton3) {
         groupButton3.addEventListener("click", function () {
@@ -232,28 +231,24 @@
           }
         });
       }
-      
       var rectangleButton = document.getElementById("rectangleButton");
       if (rectangleButton) {
         rectangleButton.addEventListener("click", function () {
-          window.location.href = "https://bit.ly/3nbcI3a";
+          window.open("https://bit.ly/3nbcI3a");
         });
       }
-      
       var goToBeta = document.getElementById("goToBeta");
       if (goToBeta) {
         goToBeta.addEventListener("click", function () {
           window.location.href = "https://bit.ly/3nbcI3a";
         });
       }
-      
       var tRYNOW = document.getElementById("tRYNOW");
       if (tRYNOW) {
         tRYNOW.addEventListener("click", function () {
           window.location.href = "https://bit.ly/3nbcI3a";
         });
       }
-      
       var fEATURES = document.getElementById("fEATURES");
       if (fEATURES) {
         fEATURES.addEventListener("click", function () {
@@ -265,7 +260,6 @@
           }
         });
       }
-      
       var tRYNOW1 = document.getElementById("tRYNOW1");
       if (tRYNOW1) {
         tRYNOW1.addEventListener("click", function () {
@@ -287,10 +281,9 @@
           threshold: 0.15,
         }
       );
-      
       for (let i = 0; i < scrollAnimElements.length; i++) {
         observer.observe(scrollAnimElements[i]);
       }
-      </script>
+    </script>
   </body>
 </html>

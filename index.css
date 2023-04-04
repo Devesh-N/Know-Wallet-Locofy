@@ -232,6 +232,7 @@
   width: 47px;
   height: 47px;
   object-fit: cover;
+  cursor: pointer;
 }
 .group-child {
   position: absolute;
